@@ -32,12 +32,6 @@ from utils import *
 
 
 if __name__ == '__main__':
-    '''
-    f = open('../上海到北京火车票网上订票_火车票价预订查询【携程火车票预订】.html', 'r')
-    html = f.read()
-    trains = parse_html(html)
-    pretty_output(trains)
-    '''
     """command-line interface"""
-    arguments = docopt(__doc__)
-    TrainsSearch(arguments).pretty_output()
+    options = docopt(__doc__)
+    TrainsSearch(options).pretty_output()
