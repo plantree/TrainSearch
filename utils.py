@@ -19,7 +19,6 @@ from pypinyin import lazy_pinyin
 import re
 from selenium import webdriver
 import time
-from utils import *
 
 
 class TrainsSearch:
