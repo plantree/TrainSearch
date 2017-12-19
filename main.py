@@ -40,6 +40,7 @@ if __name__ == '__main__':
         toStaion = input('To: ')
         date = input('Date: ')
         kinds = input('Option: ')
+        print('Please wait for a moment...')
         options = {'<from>': fromStation, '<to>': toStaion, '<date>': date}
         if kinds == False:
             for kind in ('G', 'D', 'T', 'K', 'Z'):
