@@ -23,6 +23,11 @@
 
 打包工具使用`pyinstaller`，对文件进行了裁剪，并添加readme.txt帮助文档。裁剪的不是很到位，由于要模拟Python整个全部的运行环境，因此依赖项很多，压缩文件甚至达到了98M，有兴趣可以当个工具玩！
 
+[可执行文件在这里](https://github.com/plantree/TrainSearch/releases/tag/v1.0-beta)
+
+简单截图：
+![screenshot.png](https://github.com/plantree/TrainSearch/blob/master/screenshot.png?raw=true)
+
 ##### References:
 
 1. [Python 实现火车票查询工具](https://www.shiyanlou.com/courses/623/labs/2072/document)
